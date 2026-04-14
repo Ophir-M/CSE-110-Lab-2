@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="CSE 110 Lab 2 meeting minutes">
+    <title>Lab 2 Meeting Minutes</title>
+    <link rel="icon" href="favicon.ico">
+  </head>
+  <body>
+    <header>
+      <h1>First Brainstorm</h1>
+      <h2>Brainstorming Meeting</h2>
+      <h3>Date: April 14, 2026</h3>
+
+      <nav>
+        <a href="#attendance">Attendance</a><br>
+        <a href="#agenda">Agenda</a><br>
+        <a href="#unfinished">Unfinished Business</a><br>
+        <a href="#new-business">New Business</a><br>
+        <a href="#comments">Comments</a><br>
+        <a href="#media">Media</a><br>
+        <a href="#form">Form</a>
+      </nav>
+
+      <hr>
+    </header>
+
+    <main>
+      <section id="attendance">
+        <h2>Attendance</h2>
+        <ul>
+          <li>Ophir Maor</li>
+          <li>John Smith</li>
+          <li>Bob Johnson</li>
+          <li>Charlie Puth</li>
+        </ul>
+      </section>
+
+      <section id="agenda">
+        <h2>Agenda</h2>
+        <ol>
+          <li>Discuss project idea</li>
+          <li>Assign team roles</li>
+          <li>Talk about design plans</li>
+          <li>Decide next meeting time</li>
+        </ol>
+      </section>
+
+      <section id="unfinished">
+        <h2>Unfinished Business</h2>
+        <p>We still need to decide on the final project theme.</p>
+      </section>
+
+      <section id="new-business">
+        <h2>New Business</h2>
+        <p>We talked about adding a <strong>study timer</strong>, a <b>task tracker</b>, and a simple way for users to record their progress.</p>
+        <p><em>Important note:</em> everyone should bring ideas for the user interface next time.</p>
+        <p><i>Reminder:</i> test all HTML in the validator before submitting.</p>
+      </section>
+
+      <section>
+        <h2>Meeting Topic</h2>
+        <div>
+          <p>This meeting focused on our first team brainstorming session. We mainly discussed how to make the app useful, simple, and easy to build.</p>
+        </div>
+        <p>
+          One idea was to help students stay focused during study sessions.<br>
+          Another idea was to include a progress summary page.
+        </p>
+        <span>This is a short inline note written with a span tag.</span>
+      </section>
+
+      <section id="comments">
+        <h2>Miscellaneous Comments / Questions / Concerns</h2>
+        <ul>
+          <li>Should we prioritize mobile or desktop first?</li>
+          <li>Do we want a timer sound at the end of each session?</li>
+          <li>How should user data be stored?</li>
+        </ul>
+
+        <details>
+          <summary>Extra Notes</summary>
+          <p>The team agreed that the first version should stay simple and focus on core features only.</p>
+        </details>
+      </section>
+
+      <section id="media">
+        <h2>Images and Multimedia</h2>
+
+        <h3>Diagram / Whiteboard Image</h3>
+        <img src="images/diagram.jpg" alt="Whiteboard diagram showing team brainstorm ideas" width="400">
+
+        <h3>Audio Recording</h3>
+        <audio controls>
+          <source src="audio/meeting-audio.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+
+        <h3>Video Recording</h3>
+        <video controls width="400">
+          <source src="video/meeting-video.mp4" type="video/mp4">
+          Your browser does not support the video element.
+        </video>
+      </section>
+
+      <section id="form">
+        <h2>Feedback Form</h2>
+        <form></form>
+          <p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+          </p>
+
+          <p>
+            <label for="meeting-date">Meeting Date:</label>
+            <input type="date" id="meeting-date" name="meeting-date">
+          </p>
+
+          <p>Did you attend the meeting?</p>
+          <input type="checkbox" id="attended" name="attended">
+          <label for="attended">Yes</label>
+
+          <p>
+            Preferred meeting type:
+          </p>
+          <input type="radio" id="in-person" name="meeting-type" value="in-person">
+          <label for="in-person">In Person</label><br>
+          <input type="radio" id="online" name="meeting-type" value="online">
+          <label for="online">Online</label>
+
+          <p>
+            <label for="favorite-topic">Favorite topic discussed:</label>
+            <input list="topics" id="favorite-topic" name="favorite-topic">
+            <datalist id="topics">
+              <option value="Project Idea"></option>
+              <option value="Design"></option>
+              <option value="Roles"></option>
+              <option value="Schedule"></option>
+            </datalist>
+          </p>
+
+          <p>
+            <label for="role">Your role:</label>
+            <select id="role" name="role">
+              <option value="developer">Developer</option>
+              <option value="designer">Designer</option>
+              <option value="tester">Tester</option>
+              <option value="manager">Manager</option>
+            </select>
+          </p>
+
+          <p>
+            <label for="comments-box">Additional Comments:</label><br>
+            <textarea id="comments-box" name="comments-box" rows="4" cols="40"></textarea>
+          </p>
+
+          <button type="submit">Submit</button>
+          
+        </form>
+      </section>
+    </main>
+
+    <hr>
+
+    <footer>
+      <p>Created for CSE 110 Lab 2</p>
+      <p><a href="https://github.com/">GitHub</a></p>
+    </footer>
+  </body>
+</html>
